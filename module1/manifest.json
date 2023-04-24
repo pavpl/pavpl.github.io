@@ -21,5 +21,11 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "homepage": "https://pavpl.github.io/proekt1",
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -b proekt1 -d build"
+}
+
 }
