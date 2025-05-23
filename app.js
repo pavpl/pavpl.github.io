@@ -6,6 +6,14 @@ const projects = [
     url: "https://pavpl.github.io/cleanhome/",
     category: "web"
   },
+
+  {
+    title: "PassGen",
+    description: "Сервис для генерации надежный паролей.",
+    image: "https://pavpl.github.io/PassGen/preview.png", // Добавьте изображение позже
+    url: "https://pavpl.github.io/PassGen/",
+    category: "web"
+  },
   // Добавляйте новые проекты сюда
 ];
 
