@@ -26,7 +26,7 @@ function renderProjects() {
     return matchesCategory && matchesSearch;
   });
   if (filtered.length === 0) {
-    projectsList.innerHTML = '<div class="text-[#90adcb]">Проекты не найдены</div>';
+    projectsList.innerHTML = '<div style="color:#90adcb">Проекты не найдены</div>';
     return;
   }
   filtered.forEach(p => {
@@ -34,11 +34,11 @@ function renderProjects() {
     project.href = p.url;
     project.target = '_blank';
     project.rel = 'noopener noreferrer';
-    project.className = 'flex flex-col gap-3 pb-3 hover:opacity-90 transition-opacity';
-    let imgBlock = `<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg">
-      <img src="${p.image}" alt="${p.title}" onerror="this.style.display='none';this.parentNode.innerHTML='<div class=\'project-image-placeholder\'>Нет изображения</div>';" class="w-full h-full object-cover rounded-lg" />
+    project.className = 'project-card hover:opacity-90 transition-opacity';
+    let imgBlock = `<div class="project-image-block">
+      <img src="${p.image}" alt="${p.title}" onerror="this.style.display='none';this.parentNode.innerHTML='<div class=\'project-image-placeholder\'>Нет изображения</div>';" />
     </div>`;
-    project.innerHTML = imgBlock + `<div><p class="text-white text-base font-medium leading-normal">${p.title}</p><p class="text-[#90adcb] text-sm font-normal leading-normal">${p.description}</p></div>`;
+    project.innerHTML = imgBlock + `<div><p class="project-title">${p.title}</p><p class="project-desc">${p.description}</p></div>`;
     projectsList.appendChild(project);
   });
 }
