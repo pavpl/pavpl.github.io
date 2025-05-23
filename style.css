@@ -1,0 +1,58 @@
+body {
+  background: #101a23;
+  font-family: "Space Grotesk", "Noto Sans", sans-serif;
+}
+
+.main-bg {
+  background: #101a23;
+}
+
+.logo-svg svg {
+  display: block;
+}
+
+.github-btn {
+  transition: background 0.2s;
+}
+.github-btn:hover {
+  background: #314d68;
+}
+
+.search-icon svg {
+  display: block;
+}
+
+.category-tab {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: none;
+  transition: color 0.2s, border-color 0.2s;
+}
+.category-tab.active {
+  color: #fff;
+  border-bottom: 3px solid #3d98f4;
+}
+.category-tab:not(.active) {
+  color: #90adcb;
+  border-bottom: 3px solid transparent;
+}
+
+/* Заглушка для изображения проекта */
+.project-image-placeholder {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: #223649;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #90adcb;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .layout-content-container {
+    padding: 0 0.5rem;
+  }
+} 
