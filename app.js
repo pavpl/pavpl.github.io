@@ -14,6 +14,14 @@ const projects = [
     url: "https://pavpl.github.io/PassGen/",
     category: "web"
   },
+
+  {
+    title: "WarGame",
+    description: "Это текстовая игра, вдохновлённая фильмом "Военные игры" (WarGames, 1983). Ваша задача — взаимодействовать с терминалом WOPR, как в фильме..",
+    image: "https://pavpl.github.io/WarGame/preview.png", // Добавьте изображение позже
+    url: "https://pavpl.github.io/WarGame/",
+    category: "web"
+  },
   // Добавляйте новые проекты сюда
 ];
 
