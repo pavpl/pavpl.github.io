@@ -10,7 +10,7 @@ const projects = [
   {
     title: "PassGen",
     description: "Сервис для генерации надежный паролей.",
-    image: "https://pavpl.github.io/PassGen/preview.png", // Добавьте изображение позже
+    image: "https://pavpl.github.io/PassGen/preview.png",
     url: "https://pavpl.github.io/PassGen/",
     category: "web"
   },
@@ -18,9 +18,17 @@ const projects = [
   {
     title: "WarGame",
     description: "Это текстовая игра, вдохновлённая фильмом 'Военные игры' (WarGames, 1983). Ваша задача — взаимодействовать с терминалом WOPR, как в фильме..",
-    image: "https://pavpl.github.io/WarGame/preview.png", // Добавьте изображение позже
+    image: "https://pavpl.github.io/WarGame/preview.png",
     url: "https://pavpl.github.io/WarGame/",
     category: "web"
+  },
+
+  {
+    title: "Car Counter",
+    description: "Эта программа автоматически определяет и подсчитывает автомобили и людей на фотографиях, аэрофото, спутниковых снимках и видео с помощью нейросети YOLOv8. Результаты визуализируются в виде графического окна с исходным и обработанным изображением или кадром.",
+    image: "https://github.com/pavpl/Car-Counter/blob/main/Video_frame.jpg",
+    url: "https://github.com/pavpl/Car-Counter/",
+    category: "data"
   },
   // Добавляйте новые проекты сюда
 ];
