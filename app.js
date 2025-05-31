@@ -30,6 +30,14 @@ const projects = [
     url: "https://github.com/pavpl/Car-Counter/",
     category: "data"
   },
+
+  {
+    title: "Media Tracker",
+    description: "Приложение для отслеживания просмотренных фильмов, сериалов и книг.",
+    image: "https://pavpl.github.io/media-tracker/preview.png",
+    url: "https://pavpl.github.io/WarGame/media-tracker",
+    category: "web"
+  },
   // Добавляйте новые проекты сюда
 ];
 
