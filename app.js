@@ -35,7 +35,7 @@ const projects = [
     title: "Media Tracker",
     description: "Приложение для отслеживания просмотренных фильмов, сериалов и книг.",
     image: "https://pavpl.github.io/media-tracker/preview.png",
-    url: "https://pavpl.github.io/WarGame/media-tracker",
+    url: "https://pavpl.github.io/media-tracker",
     category: "web"
   },
   // Добавляйте новые проекты сюда
