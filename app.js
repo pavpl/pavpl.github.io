@@ -38,6 +38,14 @@ const projects = [
     url: "https://pavpl.github.io/media-tracker",
     category: "web"
   },
+
+  {
+    title: "Telegram Group Analyzer Bot",
+    description: "Бот для анализа групповых чатов в Telegram, предоставляющий статистику об активности участников, анализе сообщений и построении графиков активности.",
+    image: "https://github.com/pavpl/telegram-group-analyzer-bot/blob/main/preview.png",
+    url: "https://github.com/pavpl/telegram-group-analyzer-bot",
+    category: "data"
+  },
   // Добавляйте новые проекты сюда
 ];
 
