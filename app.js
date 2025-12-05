@@ -38,6 +38,14 @@ const projects = [
     url: "https://pavpl.github.io/media-tracker",
     category: "web"
   },
+
+  {
+    title: "Let It Snow",
+    description: "Отсчёт до новогодней магии.",
+    image: "https://img.freepik.com/free-photo/new-year-greeting-artwork_23-2151898894.jpg?semt=ais_se_enriched&w=740&q=80",
+    url: "https://pavpl.github.io/Let-It-Snow/",
+    category: "web"
+  },
   // Добавляйте новые проекты сюда
 ];
 
@@ -91,3 +99,4 @@ categoryTabs.forEach(tab => {
 
 // Инициализация
 renderProjects(); 
+
