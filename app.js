@@ -46,6 +46,14 @@ const projects = [
     url: "https://pavpl.github.io/Let-It-Snow/",
     category: "web"
   },
+
+  {
+    title: "F1 Blacklist",
+    description: "Калькулятор математических шансов на титул.",
+    image: "https://d12r87knhq09bn.cloudfront.net/uploads/2017/11/F1-logo-red-on-white.png?semt=ais_se_enriched&w=740&q=80",
+    url: "https://pavpl.github.io/f1-blacklist/",
+    category: "web"
+  },
   // Добавляйте новые проекты сюда
 ];
 
